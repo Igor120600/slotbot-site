@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog — SlotBot | Schengen Visa Tips & Guides</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%232563eb'/><text x='50%25' y='54%25' font-size='20' text-anchor='middle' dominant-baseline='middle' fill='white'>✈</text></svg>">
+  <meta name="description" content="Visa centre guides, Schengen application tips and slot booking advice from SlotBot.">
+  <link rel="canonical" href="https://slotbot.uk/blog.html">
+  <style>
+    :root{--ink:#0f1117;--ink2:#3d4152;--dim:#8b90a0;--bg:#f7f8fc;--white:#fff;--accent:#2563eb;--accent2:#1d4ed8;--border:#e2e5ef;--radius:12px;--shadow:0 2px 16px rgba(15,17,23,.08)}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;font-size:16px}
+    nav{position:sticky;top:0;z-index:100;background:rgba(247,248,252,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:60px}
+    .nav-logo{font-weight:700;font-size:20px;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:6px}
+    .nav-logo span{color:var(--accent)}
+    .nav-cta{background:var(--accent);color:#fff;border:none;border-radius:8px;padding:8px 18px;font-size:14px;font-weight:600;text-decoration:none}
+    .container{max-width:860px;margin:0 auto;padding:60px 24px}
+    h1{font-size:36px;font-weight:800;margin-bottom:12px}
+    .sub{color:var(--ink2);font-size:17px;margin-bottom:48px}
+    .posts{display:flex;flex-direction:column;gap:16px}
+    .post-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:28px;text-decoration:none;display:block;transition:border-color .15s,box-shadow .15s}
+    .post-card:hover{border-color:var(--accent);box-shadow:var(--shadow)}
+    .post-tag{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);margin-bottom:8px}
+    .post-title{font-size:20px;font-weight:700;color:var(--ink);margin-bottom:8px;line-height:1.3}
+    .post-excerpt{font-size:14px;color:var(--ink2);line-height:1.6;margin-bottom:12px}
+    .post-meta{font-size:12px;color:var(--dim)}
+    .lang-row{display:flex;gap:8px;margin-bottom:32px}
+    .lang-btn{background:none;border:1px solid var(--border);border-radius:8px;padding:4px 12px;font-size:13px;cursor:pointer;color:var(--ink2)}
+    .lang-btn.active{border-color:var(--accent);color:var(--accent)}
+    [data-en],[data-ru]{}
+    html[lang="en"] [data-ru]{display:none!important}
+    html[lang="ru"] [data-en]{display:none!important}
+    footer{background:var(--ink);color:#9ca3b0;padding:32px 24px;text-align:center;font-size:13px;margin-top:80px}
+    footer a{color:#9ca3b0;text-decoration:none;margin:0 12px}
+    footer a:hover{color:#fff}
+  </style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo">✈<span>SlotBot</span></a>
+  <a href="https://t.me/slotbot_visa_bot" class="nav-cta" target="_blank">Get appointment</a>
+</nav>
+
+<div class="container">
+  <div class="lang-row">
+    <button class="lang-btn active" id="btn-ru" onclick="setLang('ru')">RU</button>
+    <button class="lang-btn" id="btn-en" onclick="setLang('en')">EN</button>
+  </div>
+
+  <h1 data-ru>Блог SlotBot</h1>
+  <h1 data-en>SlotBot Blog</h1>
+  <p class="sub" data-ru>Советы по визам, руководства по визовым центрам и обновления по странам.</p>
+  <p class="sub" data-en>Visa tips, visa centre guides and country updates.</p>
+
+  <div class="posts">
+
+    <a href="blog/how-to-get-schengen-visa-from-uk.html" class="post-card">
+      <div class="post-tag" data-ru>Руководство</div>
+      <div class="post-tag" data-en>Guide</div>
+      <div class="post-title" data-ru>Как получить шенгенскую визу из Великобритании в 2026 году</div>
+      <div class="post-title" data-en>How to get a Schengen visa from the UK in 2026</div>
+      <div class="post-excerpt" data-ru>Полное руководство: документы, визовые центры, сроки подачи и как быстро найти слот для записи.</div>
+      <div class="post-excerpt" data-en>Complete guide: documents, visa centres, processing times and how to find an appointment slot fast.</div>
+      <div class="post-meta">June 12, 2026 · 5 min read</div>
+    </a>
+
+    <a href="blog/france-visa-slots-london.html" class="post-card">
+      <div class="post-tag">France</div>
+      <div class="post-title" data-ru>Как записаться во французский визовый центр в Лондоне</div>
+      <div class="post-title" data-en>How to book a French visa appointment in London</div>
+      <div class="post-excerpt" data-ru>TLSContact, очереди, реальные сроки и как не потерять время в ожидании слота.</div>
+      <div class="post-excerpt" data-en>TLSContact, queues, real timelines and how to avoid wasting time waiting for a slot.</div>
+      <div class="post-meta">June 10, 2026 · 4 min read</div>
+    </a>
+
+  </div>
+</div>
+
+<footer>
+  <a href="index.html">SlotBot</a>
+  <a href="terms.html" target="_blank">Terms</a>
+  <a href="privacy.html" target="_blank">Privacy</a>
+  <a href="mailto:botforslot@gmail.com">botforslot@gmail.com</a>
+  <br><br>© 2026 SlotBot
+</footer>
+
+<script>
+function setLang(l){
+  document.documentElement.lang=l;
+  document.getElementById('btn-ru').classList.toggle('active',l==='ru');
+  document.getElementById('btn-en').classList.toggle('active',l==='en');
+  localStorage.setItem('slotbot-lang',l);
+}
+const lang=localStorage.getItem('slotbot-lang')||(navigator.language?.startsWith('ru')?'ru':'en');
+if(lang!=='ru')setLang('en');
+</script>
+</body>
+</html>
