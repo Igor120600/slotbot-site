@@ -1,124 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <!-- Main pages -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- ═══ ОСНОВНЫЕ СТРАНИЦЫ ═══ -->
+
   <url>
     <loc>https://slotbot.uk/</loc>
-    <lastmod>2026-06-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://slotbot.uk/?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://slotbot.uk/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://slotbot.uk/?lang=fr"/>
+    <lastmod>2026-08-15</lastmod>
   </url>
+
   <url>
     <loc>https://slotbot.uk/about.html</loc>
-    <lastmod>2026-06-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-06-24</lastmod>
   </url>
+
   <url>
     <loc>https://slotbot.uk/blog.html</loc>
-    <lastmod>2026-07-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-08-15</lastmod>
   </url>
-  <!-- France visa hub page -->
+
   <url>
     <loc>https://slotbot.uk/france-visa/</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <!-- Blog posts -->
-  <url>
-    <loc>https://slotbot.uk/blog/how-to-get-schengen-visa-from-uk.html</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://slotbot.uk/blog/france-visa-slots-london.html</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://slotbot.uk/blog/italy-visa-appointment-london.html</loc>
     <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
-  <url>
-    <loc>https://slotbot.uk/blog/greece-visa-appointment-uk.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://slotbot.uk/blog/portugal-visa-appointment-uk.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://slotbot.uk/blog/easiest-schengen-visa-low-funds.html</loc>
-    <lastmod>2026-06-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://slotbot.uk/blog/legkaya-shengen-viza-malo-deneg.html</loc>
-    <lastmod>2026-06-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://slotbot.uk/blog/france-visa-appointment-uk.html</loc>
-    <lastmod>2026-06-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.95</priority>
-  </url>
+
+  <!-- ═══ СТАТЬИ БЛОГА ═══ -->
+
   <url>
     <loc>https://slotbot.uk/blog/schengen-visa-uk-travel-document-refugee.html</loc>
-    <lastmod>2026-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-08-15</lastmod>
   </url>
+
   <url>
-    <loc>https://slotbot.uk/blog/schengen-visa-with-travel-document.html</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://slotbot.uk/blog/greece-visa-paid-flight-tickets.html</loc>
+    <lastmod>2026-08-15</lastmod>
   </url>
+
   <url>
-    <loc>https://slotbot.uk/blog/ees-etias-new-schengen-entry-system.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.95</priority>
+    <loc>https://slotbot.uk/blog/greece-visa-appointment-uk.html</loc>
+    <lastmod>2026-08-15</lastmod>
   </url>
+
   <url>
-    <loc>https://slotbot.uk/blog/tls-france-visa-appointment-manchester.html</loc>
-    <lastmod>2026-07-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.95</priority>
+    <loc>https://slotbot.uk/blog/italy-visa-appointment-london.html</loc>
+    <lastmod>2026-08-15</lastmod>
   </url>
-  <url>
-    <loc>https://slotbot.uk/blog/portugal-visa-proof-of-paid-flights-2026.html</loc>
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.95</priority>
-  </url>
+
   <url>
     <loc>https://slotbot.uk/blog/what-is-slotbot.html</loc>
-    <lastmod>2026-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.95</priority>
+    <lastmod>2026-08-15</lastmod>
   </url>
+
   <url>
-    <loc>https://slotbot.uk/blog/montenegro-visa-required-russia-2026.html</loc>
-    <lastmod>2026-07-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.95</priority>
+    <loc>https://slotbot.uk/blog/france-visa-slots-london.html</loc>
+    <lastmod>2026-06-15</lastmod>
   </url>
+
+  <url>
+    <loc>https://slotbot.uk/blog/how-to-get-schengen-visa-from-uk.html</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+
+  <!-- ⚠️ Эта страница подлежит слиянию в /france-visa/ (пачка 2).
+       После настройки 301-редиректа в Cloudflare — УДАЛИ эту запись из sitemap. -->
+  <url>
+    <loc>https://slotbot.uk/blog/france-visa-appointment-uk.html</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+
+  <!-- ⚠️ ПРОВЕРЬ ИМЕНА ФАЙЛОВ ниже по своей папке blog/ — точные названия мне неизвестны.
+       Исправь loc или удали строки, если статьи нет. По моим данным у тебя также есть статьи:
+       - TLScontact Manchester (France)
+       - EES/ETIAS
+       - Portugal (документы)
+       - Montenegro (визовые требования)
+       - Easiest Schengen visa (low funds)
+       Шаблон записи: -->
+  <!--
+  <url>
+    <loc>https://slotbot.uk/blog/ИМЯ-ФАЙЛА.html</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  -->
+
 </urlset>
