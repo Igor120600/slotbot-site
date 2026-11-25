@@ -15,7 +15,7 @@
 
   <url>
     <loc>https://slotbot.uk/blog.html</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-11-25</lastmod>
   </url>
 
   <url>
@@ -67,19 +67,51 @@
     <lastmod>2026-06-15</lastmod>
   </url>
 
-  <!-- ⚠️ ПРОВЕРЬ ИМЕНА ФАЙЛОВ ниже по своей папке blog/ — точные названия мне неизвестны.
-       Исправь loc или удали строки, если статьи нет. По моим данным у тебя также есть статьи:
-       - TLScontact Manchester (France)
-       - EES/ETIAS
-       - Portugal (документы)
-       - Montenegro (визовые требования)
-       - Easiest Schengen visa (low funds)
-       Шаблон записи: -->
-  <!--
+  <!-- ═══ НОВЫЕ СТАТЬИ ═══ -->
+
   <url>
-    <loc>https://slotbot.uk/blog/ИМЯ-ФАЙЛА.html</loc>
+    <loc>https://slotbot.uk/blog/easiest-schengen-visa-low-funds.html</loc>
+    <lastmod>2026-06-19</lastmod>
+  </url>
+
+  <url>
+    <loc>https://slotbot.uk/blog/ees-etias-new-schengen-entry-system.html</loc>
+    <lastmod>2026-08-15</lastmod>
+  </url>
+
+  <url>
+    <loc>https://slotbot.uk/blog/eu-22nd-sanctions-package-visa-ban-russians.html</loc>
+    <lastmod>2026-11-25</lastmod>
+  </url>
+
+  <url>
+    <loc>https://slotbot.uk/blog/legkaya-shengen-viza-malo-deneg.html</loc>
+    <lastmod>2026-06-19</lastmod>
+  </url>
+
+  <url>
+    <loc>https://slotbot.uk/blog/montenegro-visa-required-russia-2026.html</loc>
+    <lastmod>2026-07-28</lastmod>
+  </url>
+
+  <url>
+    <loc>https://slotbot.uk/blog/portugal-visa-appointment-uk.html</loc>
     <lastmod>2026-06-15</lastmod>
   </url>
-  -->
+
+  <url>
+    <loc>https://slotbot.uk/blog/portugal-visa-proof-of-paid-flights-2026.html</loc>
+    <lastmod>2026-08-15</lastmod>
+  </url>
+
+  <url>
+    <loc>https://slotbot.uk/blog/schengen-visa-with-travel-document.html</loc>
+    <lastmod>2026-08-15</lastmod>
+  </url>
+
+  <url>
+    <loc>https://slotbot.uk/blog/tls-france-visa-appointment-manchester.html</loc>
+    <lastmod>2026-08-15</lastmod>
+  </url>
 
 </urlset>

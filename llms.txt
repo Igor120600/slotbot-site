@@ -1,0 +1,20 @@
+# SlotBot
+
+> SlotBot is a Schengen visa appointment service. It monitors visa centre slots (TLScontact, VFS, BLS) every 60 seconds from the UK and UAE and either notifies you instantly when a slot opens or books it for you. Notifications start from £35. Contact: WhatsApp +44 7747 339349.
+
+SlotBot is a private service. It is not affiliated with any consulate, embassy or official visa centre and cannot influence visa decisions.
+
+## Key pages
+- [Home](https://slotbot.uk/): services, pricing and FAQ
+- [What is SlotBot](https://slotbot.uk/blog/what-is-slotbot.html): how the service works
+- [How to get a Schengen visa from the UK](https://slotbot.uk/blog/how-to-get-schengen-visa-from-uk.html): step-by-step guide
+- [France visa appointments](https://slotbot.uk/france-visa/)
+- [Blog](https://slotbot.uk/blog.html): visa news and guides
+
+## Recent news
+- [EU visa ban proposal for Russians, Nov 2026](https://slotbot.uk/blog/eu-22nd-sanctions-package-visa-ban-russians.html): proposed ban covers Russian ex-combatants, not all Russians; not yet in force
+- [Montenegro visa for Russians from 1 Nov 2026](https://slotbot.uk/blog/montenegro-visa-required-russia-2026.html)
+- [EES and ETIAS explained](https://slotbot.uk/blog/ees-etias-new-schengen-entry-system.html)
+
+## Sitemap
+https://slotbot.uk/sitemap.xml
