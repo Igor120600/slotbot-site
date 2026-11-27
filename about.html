@@ -66,18 +66,19 @@
   </style>
 <style>nav{position:sticky;top:0;z-index:1000}html{scroll-padding-top:72px}</style>
 <style id="nav-unified">
-nav{position:sticky;top:0;z-index:1000;background:rgba(247,248,252,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 24px;display:flex;align-items:center;justify-content:flex-start;gap:0;height:60px}
+nav{position:sticky;top:0;z-index:1000;background:rgba(247,248,252,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 24px;display:flex;align-items:center;justify-content:flex-start;gap:0;height:60px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.2}
 .nav-logo{font-weight:700;font-size:20px;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:6px;margin-right:8px}
 .nav-logo span{color:var(--accent)}
 .nav-links{display:flex;align-items:center;gap:4px;flex:1;margin:0}
 .nav-link{color:var(--ink2);text-decoration:none;font-size:14px;font-weight:500;padding:6px 12px;border-radius:8px;transition:background .15s,color .15s}
 .nav-link:hover,.nav-link.active{background:var(--border);color:var(--ink)}
 .nav-right{display:flex;align-items:center;gap:12px;margin-left:auto}
-.lang-btn{background:none;border:1px solid var(--border);border-radius:8px;padding:4px 12px;font-size:13px;cursor:pointer;color:var(--ink2);transition:border-color .15s}
+.lang-btn{box-sizing:border-box;height:32px;background:none;border:1px solid var(--border);border-radius:8px;padding:0 12px;font:inherit;font-size:13px;line-height:1;cursor:pointer;color:var(--ink2);transition:border-color .15s}
 .lang-btn:hover,.lang-btn.active{border-color:var(--accent);color:var(--accent)}
-.nav-cta{background:var(--accent);color:#fff;border:none;border-radius:8px;padding:8px 18px;font-size:14px;font-weight:600;cursor:pointer;text-decoration:none;white-space:nowrap;transition:background .15s}
+.nav-cta{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;height:40px;min-width:160px;padding:0 20px;background:var(--accent);color:#fff;border:none;border-radius:8px;font:inherit;font-size:14px;font-weight:600;line-height:1;cursor:pointer;text-decoration:none;white-space:nowrap;transition:background .15s}
 .nav-cta:hover{background:#1d4ed8}
-@media(max-width:760px){nav{padding:0 16px}.nav-links{display:none}}
+@media(max-width:760px){nav{padding:0 16px}.nav-links{display:none}.nav-cta{min-width:0;padding:0 14px}}
+html[lang="en"] [data-ru]{display:none!important}html[lang="ru"] [data-en]{display:none!important}
 </style>
 </head>
 <body>
@@ -101,8 +102,7 @@ nav{position:sticky;top:0;z-index:1000;background:rgba(247,248,252,.92);backdrop
 
 <!-- HERO -->
 <div class="hero">
-  <h1 data-ru>Мы помогаем людям<br><em>попасть в визовый центр</em></h1>
-  <h1 data-en>We help people<br><em>get their visa appointments</em></h1>
+  <h1><span data-ru>Мы помогаем людям<br><em>попасть в визовый центр</em></span><span data-en>We help people<br><em>get their visa appointments</em></span></h1>
   
   <p class="hero-sub" data-ru>SlotBot — сервис мониторинга слотов в визовых центрах Шенгена. Мы следим за расписанием каждую минуту, чтобы вам не пришлось.</p>
   <p class="hero-sub" data-en>SlotBot is a Schengen visa centre slot monitoring service. We track availability every minute so you don't have to.</p>
@@ -117,8 +117,7 @@ nav{position:sticky;top:0;z-index:1000;background:rgba(247,248,252,.92);backdrop
         <div class="label" data-ru>Наша история</div>
         <div class="label" data-en>Our story</div>
         
-        <h2 data-ru>Создано людьми, которые сами стояли в очереди</h2>
-        <h2 data-en>Built by people who waited in line themselves</h2>
+        <h2><span data-ru>Создано людьми, которые сами стояли в очереди</span><span data-en>Built by people who waited in line themselves</span></h2>
         
         <p data-ru>SlotBot появился из личного опыта — бесконечного обновления страницы визового центра в надежде поймать свободный слот. Мы решили автоматизировать этот процесс.</p>
         <p data-en>SlotBot was born from personal experience — endlessly refreshing the visa centre page hoping to catch a free slot. We decided to automate it.</p>
@@ -131,8 +130,7 @@ nav{position:sticky;top:0;z-index:1000;background:rgba(247,248,252,.92);backdrop
         <div class="label" data-ru>Как мы работаем</div>
         <div class="label" data-en>How we operate</div>
         
-        <h2 data-ru>Прозрачно и честно</h2>
-        <h2 data-en>Transparent and honest</h2>
+        <h2><span data-ru>Прозрачно и честно</span><span data-en>Transparent and honest</span></h2>
         
         <p data-ru>Мы берём оплату один раз и сразу активируем сервис. Никаких скрытых списаний, никаких автоподписок.</p>
         <p data-en>We charge once and activate the service immediately. No hidden charges, no auto-subscriptions.</p>
@@ -154,8 +152,7 @@ nav{position:sticky;top:0;z-index:1000;background:rgba(247,248,252,.92);backdrop
     <div class="label" data-ru>Наши принципы</div>
     <div class="label" data-en>Our values</div>
     
-    <h2 data-ru>Почему нам доверяют</h2>
-    <h2 data-en>Why clients trust us</h2>
+    <h2><span data-ru>Почему нам доверяют</span><span data-en>Why clients trust us</span></h2>
     
     <div class="values">
       <div class="value-card">
@@ -204,8 +201,7 @@ nav{position:sticky;top:0;z-index:1000;background:rgba(247,248,252,.92);backdrop
     <div class="label" data-ru>Контакты</div>
     <div class="label" data-en>Contact</div>
     
-    <h2 data-ru>Свяжитесь с нами</h2>
-    <h2 data-en>Get in touch</h2>
+    <h2><span data-ru>Свяжитесь с нами</span><span data-en>Get in touch</span></h2>
     
     <p style="color:var(--ink2);max-width:440px;margin:0 auto" data-ru>Есть вопросы? Мы быстро отвечаем в WhatsApp.</p>
     <p style="color:var(--ink2);max-width:440px;margin:0 auto" data-en>Have questions? We respond quickly on WhatsApp.</p>
@@ -233,8 +229,7 @@ nav{position:sticky;top:0;z-index:1000;background:rgba(247,248,252,.92);backdrop
 
 <!-- CTA -->
 <div class="cta-section">
-  <h2 data-ru>Готовы начать?</h2>
-  <h2 data-en>Ready to get started?</h2>
+  <h2><span data-ru>Готовы начать?</span><span data-en>Ready to get started?</span></h2>
   
   <p style="color:var(--ink2);margin:14px auto 32px;max-width:400px;font-size:16px" data-ru>Напишите нам в WhatsApp и найдите слот за 1–2 дня.</p>
   <p style="color:var(--ink2);margin:14px auto 32px;max-width:400px;font-size:16px" data-en>Message us on WhatsApp and find a slot in 1–2 days.</p>

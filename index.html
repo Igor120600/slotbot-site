@@ -393,18 +393,19 @@
 </style>
 <style>nav{position:sticky;top:0;z-index:1000}html{scroll-padding-top:72px}</style>
 <style id="nav-unified">
-nav{position:sticky;top:0;z-index:1000;background:rgba(247,248,252,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 24px;display:flex;align-items:center;justify-content:flex-start;gap:0;height:60px}
+nav{position:sticky;top:0;z-index:1000;background:rgba(247,248,252,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 24px;display:flex;align-items:center;justify-content:flex-start;gap:0;height:60px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.2}
 .nav-logo{font-weight:700;font-size:20px;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:6px;margin-right:8px}
 .nav-logo span{color:var(--accent)}
 .nav-links{display:flex;align-items:center;gap:4px;flex:1;margin:0}
 .nav-link{color:var(--ink2);text-decoration:none;font-size:14px;font-weight:500;padding:6px 12px;border-radius:8px;transition:background .15s,color .15s}
 .nav-link:hover,.nav-link.active{background:var(--border);color:var(--ink)}
 .nav-right{display:flex;align-items:center;gap:12px;margin-left:auto}
-.lang-btn{background:none;border:1px solid var(--border);border-radius:8px;padding:4px 12px;font-size:13px;cursor:pointer;color:var(--ink2);transition:border-color .15s}
+.lang-btn{box-sizing:border-box;height:32px;background:none;border:1px solid var(--border);border-radius:8px;padding:0 12px;font:inherit;font-size:13px;line-height:1;cursor:pointer;color:var(--ink2);transition:border-color .15s}
 .lang-btn:hover,.lang-btn.active{border-color:var(--accent);color:var(--accent)}
-.nav-cta{background:var(--accent);color:#fff;border:none;border-radius:8px;padding:8px 18px;font-size:14px;font-weight:600;cursor:pointer;text-decoration:none;white-space:nowrap;transition:background .15s}
+.nav-cta{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;height:40px;min-width:160px;padding:0 20px;background:var(--accent);color:#fff;border:none;border-radius:8px;font:inherit;font-size:14px;font-weight:600;line-height:1;cursor:pointer;text-decoration:none;white-space:nowrap;transition:background .15s}
 .nav-cta:hover{background:#1d4ed8}
-@media(max-width:760px){nav{padding:0 16px}.nav-links{display:none}}
+@media(max-width:760px){nav{padding:0 16px}.nav-links{display:none}.nav-cta{min-width:0;padding:0 14px}}
+html[lang="en"] [data-ru]{display:none!important}html[lang="ru"] [data-en]{display:none!important}
 </style>
 </head>
 <body>
@@ -777,8 +778,7 @@ function openWhatsApp() {
   <div class="container">
     <p class="section-label" data-ru>Как это работает</p>
     <p class="section-label" data-en>How it works</p>
-    <h2 data-ru>Четыре шага до записи</h2>
-    <h2 data-en>Four steps to your appointment</h2>
+    <h2><span data-ru>Четыре шага до записи</span><span data-en>Four steps to your appointment</span></h2>
 
     <div class="steps">
       <div class="step-card">
@@ -822,8 +822,7 @@ function openWhatsApp() {
   <div class="container">
     <p class="section-label" data-ru>Цены</p>
     <p class="section-label" data-en>Pricing</p>
-    <h2 data-ru>Простые и прозрачные цены</h2>
-    <h2 data-en>Simple, transparent pricing</h2>
+    <h2><span data-ru>Простые и прозрачные цены</span><span data-en>Simple, transparent pricing</span></h2>
     <p class="section-sub" data-ru>Списываем деньги один раз. Не автоподписка.</p>
     <p class="section-sub" data-en>One-time charge. Not a recurring subscription.</p>
 
@@ -886,8 +885,7 @@ function openWhatsApp() {
   <div class="container">
     <p class="section-label" data-ru>Почему SlotBot</p>
     <p class="section-label" data-en>Why SlotBot</p>
-    <h2 data-ru>Безопасность и прозрачность</h2>
-    <h2 data-en>Safe, transparent, human</h2>
+    <h2><span data-ru>Безопасность и прозрачность</span><span data-en>Safe, transparent, human</span></h2>
 
     <div class="steps">
       <div class="step-card">
@@ -924,8 +922,7 @@ function openWhatsApp() {
          ⚠️ Проверь URL Trustpilot ниже — поставил по стандартному шаблону.
          Отзыв Lina F. помечен на Trustpilot как «Review removed» — если хочешь строгого
          соответствия с профилем, удали эту карточку. -->
-    <h2 style="margin-top:72px" data-ru>Что говорят клиенты</h2>
-    <h2 style="margin-top:72px" data-en>What clients say</h2>
+    <h2 style="margin-top:72px"><span data-ru>Что говорят клиенты</span><span data-en>What clients say</span></h2>
 
     <div class="steps">
       <div class="step-card">
@@ -968,8 +965,7 @@ function openWhatsApp() {
   <div class="container">
     <p class="section-label" data-ru>Направления</p>
     <p class="section-label" data-en>Destinations</p>
-    <h2 data-ru>23 страны Шенгенской зоны</h2>
-    <h2 data-en>23 Schengen zone countries</h2>
+    <h2><span data-ru>23 страны Шенгенской зоны</span><span data-en>23 Schengen zone countries</span></h2>
     <p class="section-sub" data-ru>Мониторим центры TLSContact, VFS и BLS по всем направлениям ниже.</p>
     <p class="section-sub" data-en>We monitor TLSContact, VFS and BLS centres for every destination below.</p>
 
@@ -999,8 +995,7 @@ function openWhatsApp() {
       <div class="country-chip"><img src="https://flagcdn.com/24x18/ch.png" alt="CH" loading="lazy"> <span data-ru>Швейцария</span><span data-en>Switzerland</span></div>
     </div>
 
-    <h3 class="apply-title" data-ru>Подача из 9 стран</h3>
-    <h3 class="apply-title" data-en>Apply from 9 countries</h3>
+    <h3 class="apply-title"><span data-ru>Подача из 9 стран</span><span data-en>Apply from 9 countries</span></h3>
     <div class="apply-grid">
       <div class="apply-card">
         <img src="https://flagcdn.com/40x30/gb.png" alt="UK" loading="lazy">
@@ -1091,8 +1086,7 @@ function openWhatsApp() {
 <section id="faq">
   <div class="container">
     <p class="section-label">FAQ</p>
-    <h2 data-ru>Частые вопросы</h2>
-    <h2 data-en>Frequently asked questions</h2>
+    <h2><span data-ru>Частые вопросы</span><span data-en>Frequently asked questions</span></h2>
 
     <div class="faq">
 
@@ -1161,8 +1155,7 @@ function openWhatsApp() {
   <div class="container">
     <p class="section-label" data-ru>Блог</p>
     <p class="section-label" data-en>Blog</p>
-    <h2 data-ru>Полезные статьи о визах</h2>
-    <h2 data-en>Visa tips &amp; guides</h2>
+    <h2><span data-ru>Полезные статьи о визах</span><span data-en>Visa tips &amp; guides</span></h2>
     <p class="section-sub" data-ru>Советы по подаче документов, обновления по странам и руководства по визовым центрам.</p>
     <p class="section-sub" data-en>Application tips, country updates and visa centre guides.</p>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin-top:36px">
@@ -1203,8 +1196,7 @@ function openWhatsApp() {
 
 <section style="text-align:center; padding: 80px 24px;">
   <div class="container">
-    <h2 data-ru>Готовы найти слот?</h2>
-    <h2 data-en>Ready to find your slot?</h2>
+    <h2><span data-ru>Готовы найти слот?</span><span data-en>Ready to find your slot?</span></h2>
     <p style="color:var(--ink2);margin:16px auto 36px;max-width:440px;font-size:17px" data-ru>Напишите нам в WhatsApp и получите запись в визовый центр за 1–2 дня.</p>
     <p style="color:var(--ink2);margin:16px auto 36px;max-width:440px;font-size:17px" data-en>Message us on WhatsApp and get your visa centre appointment in 1–2 days.</p>
     <a href="https://wa.me/447747339349?text=Hi%21%20I%20need%20help%20with%20a%20Schengen%20visa%20appointment." class="btn-primary" target="_blank" rel="noopener" style="display:inline-flex">
