@@ -24,9 +24,37 @@
     footer a{color:#9ca3b0;text-decoration:none;margin:0 10px}
   </style>
 <style>nav{position:sticky;top:0;z-index:1000}html{scroll-padding-top:72px}.nav-link{color:#3d4152;text-decoration:none;font-size:14px;font-weight:500;padding:6px 12px;border-radius:8px}.nav-link:hover{background:#e2e5ef}.nav-links{display:flex;gap:4px;margin:0 auto 0 28px}.nav-cta{background:#2563eb;color:#fff;border-radius:8px;padding:8px 18px;font-size:14px;font-weight:600;text-decoration:none;white-space:nowrap}@media(max-width:760px){.nav-links{display:none}}nav{background:rgba(247,248,252,.95);backdrop-filter:blur(12px)}</style>
+<style id="nav-unified">
+nav{position:sticky;top:0;z-index:1000;background:rgba(247,248,252,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 24px;display:flex;align-items:center;justify-content:flex-start;gap:0;height:60px}
+.nav-logo{font-weight:700;font-size:20px;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:6px;margin-right:8px}
+.nav-logo span{color:var(--accent)}
+.nav-links{display:flex;align-items:center;gap:4px;flex:1;margin:0}
+.nav-link{color:var(--ink2);text-decoration:none;font-size:14px;font-weight:500;padding:6px 12px;border-radius:8px;transition:background .15s,color .15s}
+.nav-link:hover,.nav-link.active{background:var(--border);color:var(--ink)}
+.nav-right{display:flex;align-items:center;gap:12px;margin-left:auto}
+.lang-btn{background:none;border:1px solid var(--border);border-radius:8px;padding:4px 12px;font-size:13px;cursor:pointer;color:var(--ink2);transition:border-color .15s}
+.lang-btn:hover,.lang-btn.active{border-color:var(--accent);color:var(--accent)}
+.nav-cta{background:var(--accent);color:#fff;border:none;border-radius:8px;padding:8px 18px;font-size:14px;font-weight:600;cursor:pointer;text-decoration:none;white-space:nowrap;transition:background .15s}
+.nav-cta:hover{background:#1d4ed8}
+@media(max-width:760px){nav{padding:0 16px}.nav-links{display:none}}
+html[lang="en"] [data-ru]{display:none!important}html[lang="ru"] [data-en]{display:none!important}
+</style>
 </head>
 <body>
-<nav><a href="index.html" class="nav-logo">✈ Slot<span>Bot</span></a><div class="nav-links"><a href="index.html#how" class="nav-link">How it works</a><a href="index.html#pricing" class="nav-link">Pricing</a><a href="blog.html" class="nav-link">Blog</a><a href="about.html" class="nav-link">About us</a></div><a href="https://wa.me/447747339349?text=Hi%21%20I%20need%20help%20with%20a%20Schengen%20visa%20appointment." class="nav-cta" target="_blank" rel="noopener">Get appointment</a></nav>
+<nav>
+  <a href="index.html" class="nav-logo">✈<span>SlotBot</span></a>
+  <div class="nav-links">
+    <a href="index.html#how" class="nav-link"><span data-ru>Как это работает</span><span data-en>How it works</span></a>
+    <a href="index.html#pricing" class="nav-link"><span data-ru>Цены</span><span data-en>Pricing</span></a>
+    <a href="blog.html" class="nav-link"><span data-ru>Блог</span><span data-en>Blog</span></a>
+    <a href="about.html" class="nav-link"><span data-ru>О нас</span><span data-en>About us</span></a>
+  </div>
+  <div class="nav-right">
+    <button class="lang-btn" id="btn-en" onclick="setLang('en')">EN</button>
+    <button class="lang-btn" id="btn-ru" onclick="setLang('ru')">RU</button>
+    <a href="https://wa.me/447747339349" class="nav-cta" target="_blank" rel="noopener"><span data-ru>Записаться</span><span data-en>Get appointment</span></a>
+  </div>
+</nav>
 <div class="container">
   <h1>Privacy Policy</h1>
   <div class="date">Last updated: June 12, 2026</div>
@@ -86,5 +114,9 @@
   <a href="mailto:botforslot@gmail.com">botforslot@gmail.com</a>
   <br><br>© 2026 SlotBot
 </footer>
+<script>
+function setLang(l){if(l!=='ru')l='en';document.documentElement.setAttribute('lang',l);var r=document.getElementById('btn-ru'),e=document.getElementById('btn-en');if(r)r.classList.toggle('active',l==='ru');if(e)e.classList.toggle('active',l==='en');try{localStorage.setItem('slotbot-lang',l)}catch(x){}}
+(function(){var d=document.documentElement.getAttribute('lang')==='ru'?'ru':null,s=null;try{s=localStorage.getItem('slotbot-lang')}catch(x){}setLang(d||(s==='ru'?'ru':'en'))})();
+</script>
 </body>
 </html>
